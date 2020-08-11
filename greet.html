@@ -1,0 +1,11 @@
+<body>
+    <p id="time"></p>
+
+    <script>
+        let date = new Date();
+        let hour = date.getHours();
+        let min = date.getMinutes();
+        
+        document.getElementById('time').innerHTML = (date, hour + ':' + min);    
+    </script>
+</body>
